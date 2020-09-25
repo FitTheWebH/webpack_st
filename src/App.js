@@ -1,6 +1,13 @@
 import React from "react";
+import axios from "axios";
 import "../src/styles/style.css";
 class App extends React.Component {
+  componentDidMount = async () => {
+    const { data } = await axios.post("/api/connect");
+
+    console.log(data);
+  };
+
   render() {
     return (
       <div className="main">

@@ -1,0 +1,16 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./emp.css";
+@import "./dialog.css";
+.NewApp {
+  width: 100%;
+}
+
+.MM00,
+.MM01,
+.MM02,
+.MM03,
+.MM04 {
+  width: 100%;
+  padding: 30px;
+}

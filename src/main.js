@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import Client from "./Client/Client";
+import "./styles/styles.css";
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<Client />, document.getElementById("app"));
